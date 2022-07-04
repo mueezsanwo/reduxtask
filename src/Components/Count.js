@@ -18,11 +18,11 @@ const Count = () => {
     }
   return (
     <div>
-      <h3>Developer Counter App</h3>
-      <h3>Count {counts}</h3>
-      <button onClick={handleIncrement}>Increment </button>
-      <button onClick={handleReset}>Reset</button>
-      <button onClick={handleDecrement}>Decrement</button>
+      <h3> Counter App</h3>
+      <h3 id='countervalue'>Count {counts}</h3>
+      <button id='increasebutton' onClick={handleIncrement}>Increment </button>
+      <button id='reset-button' onClick={handleReset}>Reset</button>
+      <button id='decreasebutton' onClick={handleDecrement}>Decrement</button>
     </div>
   )
 }
